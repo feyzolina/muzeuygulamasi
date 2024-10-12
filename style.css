@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    background-color: rgb(63, 38, 7);
+}
+
+#home {
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    height: 220px;
+}
+
+#header img {
+    height: 220px;
+    width: 100%;
+}
+
+#nav {
+    height: 30px;
+    background-color: rgb(150, 93, 25);
+}
+
+.section1 {
+    padding: 20px;
+    width: 800px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+#article {
+    width: 490px;
+    height: 260px;
+    overflow: auto;
+    float: left;
+}
+
+#article p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(80, 50, 12);
+    font-style: normal;
+    font-weight: bold;
+    /* font-variant: small-caps;
+    text-transform: uppercase; */
+    text-align: justify;
+    /* text-decoration: underline double red;
+    letter-spacing: 1px;
+    word-spacing: 20px;
+    line-height: 25px; */
+}
+
+#main-img {
+    background-image: url(images/Musee_du_Louvre-List_of_tourist_attractions_in_Paris-Louvre_Palace-Pavillon_de_lHorloge-image.jpg);
+    background-size: 250px 260px;
+    /* background-repeat: no-repeat;
+    background-position: 50px 55px;
+    background-attachment: scroll;
+    overflow: auto; */
+    width: 250px;
+    height: 260px;
+    float: right;
+    border-radius: 10px;
+    /* border-style: dotted;
+    border-color: magenta;
+    border: 10px solid red; */
+    box-sizing: border-box;
+}
+
+/* #card1,  #card2,  #card3,  #card4(ortak stil tanımlama)
+yıldız parantez *{bütün taglar, başlık, paragraf, d,v vd. ne olursa olsun her yerde ortal stil} */
+#card1,
+#card2,
+#card3,
+#card4 {
+    width: 175px;
+    height: 200px;
+    background-color: rgb(96, 58, 12);
+    border-radius: 10px;
+    float: left;
+    margin-left: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#card1 {
+    clear: both;
+}
+
+.card-image {
+    width: 165px;
+    height: 160px;
+}
+
+#card1 h2,
+#card2 h2,
+#card3 h2,
+#card4 h2 {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    font-size: 20px;
+    /* padding-top: 5px;
+    box-sizing: border-box; */
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav a {
+    display: block;
+    width: 160px;
+    /* height: 30px; */
+    line-height: 30px;
+    text-align: center;
+    color: rgb(50, 31, 7);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav a:hover {
+    background-color: rgb(89, 57, 17);
+    color: rgb(172, 110, 34);
+}
+
+#footer {
+    clear: both;
+    height: 30px;
+    background-color: rgb(74, 48, 17);
+    /* margin-top: 20px;  floatlı alanlarda üst margin çalışmaz dolayısıyla yukarı çıktık margin bottom verdik line90 */
+    text-align: right;
+}
+
+#footer span {
+    line-height: 30px;
+}
